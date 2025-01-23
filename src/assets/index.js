@@ -35,9 +35,9 @@ import tactical from "./projects/tactical.jpg";
 import codeDocs from "./projects/CodeDocs.png";
 import aptihealthApp from "./projects/aptihealthApp.png";
 import zealWeb from "./projects/zealWeb.png";
-import zealApp from "./projects/zealApp.png";
+import campus_capture from "./projects/campus_capture.png";
 import rollWeb from "./projects/rollWeb.png";
-import rollApp from "./projects/rollApp.png";
+import CodeCrafters from "./projects/CodeCrafters.png";
 
 export {
   logo,
@@ -75,7 +75,7 @@ export {
   codeDocs,
   aptihealthApp,
   zealWeb,
-  zealApp,
+  campus_capture,
   rollWeb,
-  rollApp,
+  CodeCrafters,
 };

@@ -22,9 +22,9 @@ import {
   codeDocs,
   tactical,
   zealWeb,
-  zealApp,
+  campus_capture,
   rollWeb,
-  rollApp,
+  CodeCrafters,
   linkedIn,
   github,
 } from "../assets";
@@ -155,10 +155,10 @@ const projects = [
   {
     name: "CodeDocs",
     description:
-      "Introducing an AI-powered solution that transforms the way you document code! No more tedious manual documentation — our tool automatically generates clear, concise explanations from your code snippets. Boost your productivity by instantly writing, running, and testing code with seamless IDE integration, and collaborate with your team in real-time using Collaborative Coding for effortless teamwork!",
+      "Introducing an AI-powered solution that transforms the way you document code! No more tedious manual documentation-our tool automatically generates clear, concise explanations from your code snippets. Boost your productivity by instantly writing, running, and testing code with seamless IDE integration, and collaborate with your team in real-time using Collaborative Coding for effortless teamwork!",
     tags: [
       {
-        name: "nodejs",
+        name: "Nodejs",
         color: "pink-text-gradient",
       },
       {
@@ -187,16 +187,20 @@ const projects = [
       "This project is part of the MindSpark Hackathon and involves building a news aggregation application using a Django backend, integrated with Qdrant for vector storage and MySQL for data management",
     tags: [
       {
-        name: "react-native",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "sendbird",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "twilio",
+        name: "Docker(Qdrant)",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
       },
     ],
     image: tactical,
@@ -208,15 +212,15 @@ const projects = [
       "This project offers a platform to compare product prices across multiple e-commerce sites. Integrated with Gemini chatbot, users can search products via images or text, and inquire about them. Also, it provides graphical representation of price trends over 6 months for informed decisions",
     tags: [
       {
-        name: "reactjs",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "reactjs",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
@@ -224,69 +228,70 @@ const projects = [
     hosted_link: "https://github.com/prajwalpkp2106/PriceHunt",
   },
   {
-    name: "Zeal App",
-    description:
-      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
+    name: "InstaSwipeChat",
+    description:  
+      "Flutter-based mobile application that integrates functionalities inspired by Tinder (swipe-based matching), Omegle (anonymous video chatting), and Instagram (photo sharing and social networking). It utilizes Firebase for the backend services, including authentication, real-time database, cloud storage, and messaging.",
     tags: [
       {
-        name: "react-native",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "sendgrid",
+        name: "FireBase",
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zealApp,
-    hosted_link:
-      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
-  },
-  {
-    name: "Roll Web",
-    description:
-      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "formik",
+        name: "cloud_firestore",
         color: "pink-text-gradient",
       },
     ],
     image: rollWeb,
-    hosted_link: "https://app.tryroll.com/",
+    hosted_link: "https://github.com/prajwalpkp2106/InstaSwipeChat",
   },
+
   {
-    name: "Roll App",
+    name: "CAMPUS CAPTURES",
     description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
+      "Campus Captures is a secure web application for storing and organizing college event photos. It addresses photo management challenges by offering effective organization, easy accessibility, and long-term preservation. Key features include robust security, an intuitive interface, and tools for efficient categorizing and retrieval of photos.",
     tags: [
       {
-        name: "react-native-web",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "PHPMyAdmin",
         color: "green-text-gradient",
       },
       {
-        name: "storybook",
+        name: "HTML-CSS ",
         color: "pink-text-gradient",
       },
     ],
-    image: rollApp,
+    image: campus_capture,
     hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
+      "https://github.com/prajwalpkp2106/CAMPUS-CAPTURES",
+  },
+  {
+    name: "E-MANDI",
+    description:
+      "CodeCrafters: Digital and analytics technologies offer a way to create value by optimizing the supply chain in agriculture.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CodeCrafters,
+    hosted_link:
+      "https://github.com/prajwalpkp2106/CodeCrafters.git",
   },
 ];
 
